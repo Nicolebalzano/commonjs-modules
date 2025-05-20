@@ -1,11 +1,12 @@
-import names from "./names"
-import hobbies from "./hobbies"
-//  Crea una funzione che non ha parametri. La funzione dovrebbe restituire un oggetto con due proprietà: 
-//  fullName ed hobbies.
-//   All'interno della tua funzione, usa le tue due funzioni precedenti per costruire l'oggetto
+import names from "./names.js"
+import hobbies from "./hobbies.js"
+
+const userFullName = names("Nicole", "Balzano");
+const userHobbies = hobbies("leggere", "coding", "animali")
 function people() {
 return {
-    fullName : names(),
-    hobbies : hobbies()
+    fullName : userFullName ,
+    hobbies : userHobbies
 }
 }
+export  default people;

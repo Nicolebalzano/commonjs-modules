@@ -1,0 +1,21 @@
+{
+  "name": "commonjs-modules",
+  "version": "1.0.0",
+  "description": "Esercizio funzioni",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "repository": {
+    "type":  "git",
+    "url": "git+https://github.com/Nicolebalzano/commonjs-modules.git"
+  },
+
+"type" : "module",
+  "author": "Nicole Balzano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicolebalzano/commonjs-modules/issues"
+  },
+  "homepage": "https://github.com/Nicolebalzano/commonjs-modules#readme"
+}
